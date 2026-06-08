@@ -1,1 +1,66 @@
-Arra
+## 📚 Arrays in Data Structures
+
+> A collection of elements of the **same data type** stored in **contiguous memory locations**.
+
+---
+
+### 🔑 Key Concepts
+
+| Property | Detail |
+|----------|--------|
+| Size | Fixed at compile time, cannot change at runtime |
+| Access | `arrayName[index]` |
+| Syntax | `dataType arrayName[];` |
+| Example | `int[] rollno = new int[40];` |
+
+---
+
+### 🧠 Memory Representation
+
+```
+Stack Memory  →  stores reference variable (rollno)
+                        ↓
+Heap Memory   →  stores actual array object
+                 [ elements | size | dataType ]
+```
+
+---
+
+### ✏️ Initialization Methods
+
+```java
+// 1. Array initializer
+int[] no = {1, 2, 3, 4, 5};
+
+// 2. Individual assignment
+int[] no = new int[8];
+no[0] = 10;
+
+// 3. Runtime initialization
+int[] no = new int[5];
+for (int i = 0; i < no.length; i++) {
+    no[i] = i + 1;
+}
+```
+
+---
+
+### 📐 Types of Arrays
+
+- **1D Array** — 1 row, multiple columns
+- **2D Array** — rows and columns (matrix)
+- **Multidimensional** — 3 or more dimensions
+
+---
+
+### 🧮 Address Calculation (1D)
+
+```
+Address of element = Base Address + (index × size of dataType)
+```
+
+**Example:** `int a[5] = {6, 2, 4, 3, 0};`  
+Address of index 2 = `100 + (2 × 4)` = **108**  
+*(base address 100 assumed; real addresses are in hexadecimal)*
+
+---
