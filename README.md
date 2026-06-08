@@ -52,6 +52,7 @@ It ensures that we select the best algorithm.
 Time Complexity:it is expressed in big oh O(n) notation
      
 O(n)-->linear search
+
 O(log n)-->binary search
 
 Time Complexity measures the growth rate of an algorithm's execution time as the input size increases
@@ -67,6 +68,7 @@ statements
 function calls
 
 Space Complexity : it measures the amount of memory an alg uses in relation to the input size
+
 Auxilliary space- extra space used by the alg beyond the input size
 In place algorithms - algorithms that use a constant amount of extra space are called in-place algorithms and have an auxiliary space complexity of O(1).
 
@@ -86,7 +88,9 @@ here rollno is refference
 
 Array Initialzation:
 array Initializer -int no=[1,2,3,4,5];
+
 Individual Assignment -int[] no = new int[8];
+
 Runtime Initialization -int[] no = new int[5];
                         for(int i = 0;i<no.length;i++){
                         nu[i]-i+1;
