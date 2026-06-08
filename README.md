@@ -68,6 +68,13 @@ function calls
 
 Space Complexity : it measures the amount of memory an alg uses in relation to the input size
 Auxilliary space- extra space used by the alg beyond the input size
+In place algorithms - algorithms that use a constant amount of extra space are called in-place algorithms and have an auxiliary space complexity of O(1).
+
+Ex:Bubble sort
+
+
+
+
 
 
 
