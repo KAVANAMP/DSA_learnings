@@ -1,42 +1,85 @@
-## 📚 Arrays in Data Structures
+<div align="center">
 
-> A collection of elements of the **same data type** stored in **contiguous memory locations**.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C8FF&center=true&vCenter=true&width=600&lines=📦+Arrays+in+Data+Structures;Fixed+Size+%7C+Contiguous+Memory;Stack+%2B+Heap+Memory+Model" alt="Typing SVG" />
 
----
-
-### 🔑 Key Concepts
-
-| Property | Detail |
-|----------|--------|
-| Size | Fixed at compile time, cannot change at runtime |
-| Access | `arrayName[index]` |
-| Syntax | `dataType arrayName[];` |
-| Example | `int[] rollno = new int[40];` |
+</div>
 
 ---
 
-### 🧠 Memory Representation
+<div align="center">
+
+![DSA](https://img.shields.io/badge/Topic-Arrays-blue?style=for-the-badge&logo=buffer&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java&logoColor=white)
+![Type](https://img.shields.io/badge/Type-Linear%20DS-green?style=for-the-badge)
+
+</div>
+
+---
+
+## 🧩 What is an Array?
+
+> **An array** is a collection of elements of the **same data type**,
+> stored in **contiguous (continuous) memory locations**.
+> Its size is **fixed at runtime** and cannot be changed.
+
+---
+
+## 🔑 Quick Reference
+
+| 🏷️ Property | 📋 Detail |
+|:------------|:----------|
+| 📌 Access | `arrayName[index]` |
+| 📝 Syntax | `dataType[] arrayName;` |
+| 🏗️ Instantiation | `int[] rollno = new int[40];` |
+| 📦 Storage | Contiguous memory |
+| 🔒 Size | Fixed at compile time |
+
+---
+
+## 🧠 Memory Model
 
 ```
-Stack Memory  →  stores reference variable (rollno)
-                        ↓
-Heap Memory   →  stores actual array object
-                 [ elements | size | dataType ]
+┌─────────────────────────────────────────────┐
+│               STACK MEMORY                  │
+│  ┌──────────┐                               │
+│  │  rollno  │ ──────────────────────────►  │
+│  │ (ref var)│          points to           │
+│  └──────────┘                               │
+└─────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────┐
+│               HEAP MEMORY                   │
+│  ┌────────────────────────────────────────┐ │
+│  │   Array Object                         │ │
+│  │  ┌──────┬──────┬──────┬──────┬──────┐ │ │
+│  │  │ [0]  │ [1]  │ [2]  │ [3]  │ [4]  │ │ │
+│  │  ├──────┼──────┼──────┼──────┼──────┤ │ │
+│  │  │  6   │  2   │  4   │  3   │  0   │ │ │
+│  │  └──────┴──────┴──────┴──────┴──────┘ │ │
+│  │   size: 5  │  type: int               │ │
+│  └────────────────────────────────────────┘ │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-### ✏️ Initialization Methods
+## ✏️ Initialization Methods
 
+### 1️⃣ Array Initializer
 ```java
-// 1. Array initializer
 int[] no = {1, 2, 3, 4, 5};
+```
 
-// 2. Individual assignment
+### 2️⃣ Individual Assignment
+```java
 int[] no = new int[8];
 no[0] = 10;
+no[1] = 20;
+```
 
-// 3. Runtime initialization
+### 3️⃣ Runtime Initialization
+```java
 int[] no = new int[5];
 for (int i = 0; i < no.length; i++) {
     no[i] = i + 1;
@@ -45,22 +88,44 @@ for (int i = 0; i < no.length; i++) {
 
 ---
 
-### 📐 Types of Arrays
+## 📐 Types of Arrays
 
-- **1D Array** — 1 row, multiple columns
-- **2D Array** — rows and columns (matrix)
-- **Multidimensional** — 3 or more dimensions
+```
+Arrays
+ ├── 1D Array       →  [ 1, 2, 3, 4, 5 ]
+ │
+ ├── 2D Array       →  [ [1,2,3],
+ │                        [4,5,6] ]
+ │
+ └── Multi-dim      →  3D, 4D, ...nD
+```
 
 ---
 
-### 🧮 Address Calculation (1D)
+## 🧮 Address Calculation
 
+### Formula
 ```
 Address of element = Base Address + (index × size of dataType)
 ```
 
-**Example:** `int a[5] = {6, 2, 4, 3, 0};`  
-Address of index 2 = `100 + (2 × 4)` = **108**  
-*(base address 100 assumed; real addresses are in hexadecimal)*
+### 📊 Example
+```
+int a[5] = { 6, 2, 4, 3, 0 }
+            100 104 108 112 116   ← addresses (base = 100)
+
+Address of index 2:
+  = 100 + (2 × 4)
+  = 100 + 8
+  = 108  ✅
+```
+
+> 💡 Real addresses are in **hexadecimal**. `100` is used here for simplicity.
 
 ---
+
+<div align="center">
+
+*📖 Part of my DSA Notes Series — more topics coming soon!*
+
+</div>
