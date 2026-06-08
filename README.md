@@ -73,5 +73,54 @@ In place algorithms - algorithms that use a constant amount of extra space are c
 Ex:Bubble sort
 
 
+ARRAYS IN DATA STRUCTURE:
+
+Array is a collection of more than 1 element of similar datatype, elements are stored in consecutive(continues) location.
+In runtime the size of array can't be changed
+To access a particular array element=arrayNmae[index]
+Syntax of array :
+data_type array_name[];
+int[] rollno=new int[40]; --> instantiation of array
+here rollno is refference
+Array Initialzation:
+array Initializer -int no=[1,2,3,4,5];
+Individual Assignment -int[] no = new int[8];
+Runtime Initialization -int[] no = new int[5];
+                        for(int i = 0;i<no.length;i++){
+                        nu[i]-i+1;
+                        }
+
+Memory Representationf Array:
+Stack Memory : stores the reference variable that points to the array obj in the heap.
+Heap Memory : Stores the actual obj which contains the elements and metadata such as size and data type
+
+example :
+public class Array{
+public static void main(String[] args){
+//int[] numbers;  -->declaration
+//numbers=new int[5];  --> Initialization
+numbers=new[] {1,2,3,4,5}; --> we can initialize and declare in the same line
+System.out.println(numbers);
+}
+}
+
+NOTE :- default value for int is 0
+        default value for array or obj is null
+        local(a) variables are diff
+
+types of array:
+1.1D array
+2.2D array
+3.multi dimentional array
+
+1.1D array 
+! row multiple columns
+Calculation of address of the array =base address+i*size of data type
+ex: int a[5]={6,2,4,3,0};
+address os 2nd index = 100+2*4 =108              ( here 100 is taken for understanding purpose                                                         address should be in hexadecimal form)
+address of 4 is 108
+ 
+
+
 
 
