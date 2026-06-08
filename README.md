@@ -78,10 +78,12 @@ ARRAYS IN DATA STRUCTURE:
 Array is a collection of more than 1 element of similar datatype, elements are stored in consecutive(continues) location.
 In runtime the size of array can't be changed
 To access a particular array element=arrayNmae[index]
+
 Syntax of array :
 data_type array_name[];
 int[] rollno=new int[40]; --> instantiation of array
 here rollno is refference
+
 Array Initialzation:
 array Initializer -int no=[1,2,3,4,5];
 Individual Assignment -int[] no = new int[8];
