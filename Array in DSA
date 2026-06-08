@@ -1,131 +1,28 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C8FF&center=true&vCenter=true&width=600&lines=📦+Arrays+in+Data+Structures;Fixed+Size+%7C+Contiguous+Memory;Stack+%2B+Heap+Memory+Model" alt="Typing SVG" />
-
-</div>
-
----
-
-<div align="center">
-
-![DSA](https://img.shields.io/badge/Topic-Arrays-blue?style=for-the-badge&logo=buffer&logoColor=white)
-![Language](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java&logoColor=white)
-![Type](https://img.shields.io/badge/Type-Linear%20DS-green?style=for-the-badge)
-
-</div>
-
----
-
-## 🧩 What is an Array?
-
-> **An array** is a collection of elements of the **same data type**,
-> stored in **contiguous (continuous) memory locations**.
-> Its size is **fixed at runtime** and cannot be changed.
-
----
-
-## 🔑 Quick Reference
-
-| 🏷️ Property | 📋 Detail |
-|:------------|:----------|
-| 📌 Access | `arrayName[index]` |
-| 📝 Syntax | `dataType[] arrayName;` |
-| 🏗️ Instantiation | `int[] rollno = new int[40];` |
-| 📦 Storage | Contiguous memory |
-| 🔒 Size | Fixed at compile time |
-
----
-
-## 🧠 Memory Model
-
-```
-┌─────────────────────────────────────────────┐
-│               STACK MEMORY                  │
-│  ┌──────────┐                               │
-│  │  rollno  │ ──────────────────────────►  │
-│  │ (ref var)│          points to           │
-│  └──────────┘                               │
-└─────────────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────┐
-│               HEAP MEMORY                   │
-│  ┌────────────────────────────────────────┐ │
-│  │   Array Object                         │ │
-│  │  ┌──────┬──────┬──────┬──────┬──────┐ │ │
-│  │  │ [0]  │ [1]  │ [2]  │ [3]  │ [4]  │ │ │
-│  │  ├──────┼──────┼──────┼──────┼──────┤ │ │
-│  │  │  6   │  2   │  4   │  3   │  0   │ │ │
-│  │  └──────┴──────┴──────┴──────┴──────┘ │ │
-│  │   size: 5  │  type: int               │ │
-│  └────────────────────────────────────────┘ │
-└─────────────────────────────────────────────┘
-```
-
----
-
-## ✏️ Initialization Methods
-
-### 1️⃣ Array Initializer
-```java
-int[] no = {1, 2, 3, 4, 5};
-```
-
-### 2️⃣ Individual Assignment
-```java
-int[] no = new int[8];
-no[0] = 10;
-no[1] = 20;
-```
-
-### 3️⃣ Runtime Initialization
-```java
-int[] no = new int[5];
-for (int i = 0; i < no.length; i++) {
-    no[i] = i + 1;
-}
-```
-
----
-
-## 📐 Types of Arrays
-
-```
-Arrays
- ├── 1D Array       →  [ 1, 2, 3, 4, 5 ]
- │
- ├── 2D Array       →  [ [1,2,3],
- │                        [4,5,6] ]
- │
- └── Multi-dim      →  3D, 4D, ...nD
-```
-
----
-
-## 🧮 Address Calculation
-
-### Formula
-```
-Address of element = Base Address + (index × size of dataType)
-```
-
-### 📊 Example
-```
-int a[5] = { 6, 2, 4, 3, 0 }
-            100 104 108 112 116   ← addresses (base = 100)
-
-Address of index 2:
-  = 100 + (2 × 4)
-  = 100 + 8
-  = 108  ✅
-```
-
-> 💡 Real addresses are in **hexadecimal**. `100` is used here for simplicity.
-
----
-
-<div align="center">
-
-*📖 Part of my DSA Notes Series — more topics coming soon!*
-
-</div>
+ARRAYS IN DATA STRUCTURE:
+Array is a collection of more than 1 element of similar datatype, elements are stored in consecutive(continues) location.
+In runtime the size of array can't be changed
+To access a particular array element=arrayNmae[index]
+Syntax of array :data_type array_name[];
+int[] rollno=new int[40]; --> instantiation of array
+here rollno is refference
+Array Initialzation:
+array Initializer -int no=[1,2,3,4,5];
+Individual Assignment -int[] no = new int[8];
+Runtime Initialization -int[] no = new int[5];
+                        for(int i = 0;i<no.length;i++){
+                        nu[i]-i+1;
+                        }
+Memory Representationf Array:
+Stack Memory : stores the reference variable that points to the array obj in the heap.
+Heap Memory : Stores the actual obj which contains the elements and metadata such as size and data type
+types of array:
+1.1D array
+2.2D array
+3.multi dimentional array
+1.1D array 
+! row multiple columns
+Calculation of address of the array =base address+i*size of data type
+ex: int a[5]={6,2,4,3,0};
+address os 2nd index = 100+2*4 =108              ( here 100 is taken for understanding purpose                                                         address should be in hexadecimal form)
+address of 4 is 108
+ give me attractive to commit in github
