@@ -98,14 +98,20 @@ Runtime Initialization -int[] no = new int[5];
 
 Memory Representationf Array:
 Stack Memory : stores the reference variable that points to the array obj in the heap.
+
 Heap Memory : Stores the actual obj which contains the elements and metadata such as size and data type
 
 example :
 public class Array{
+
 public static void main(String[] args){
+
 //int[] numbers;  -->declaration
+
 //numbers=new int[5];  --> Initialization
+
 numbers=new[] {1,2,3,4,5}; --> we can initialize and declare in the same line
+
 System.out.println(numbers);
 }
 }
