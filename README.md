@@ -1,7 +1,12 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:1a001a,100:0d0d0d&height=180&text=DSA%20Learnings%20🧠&fontSize=45&fontColor=00FF99&fontAlignY=45&desc=▸%20Data%20Structures%20%26%20Algorithms%20▸%20Notes%20%2B%20Code%20▸%20Kavana%20M%20P&descAlignY=70&descSize=14&descColor=bf00ff" width="100%"/>
 <br/>
-
+Show Image
+<br/>
+Show Image
+Show Image
+Show Image
+Show Image
 </div>
 ---
 
