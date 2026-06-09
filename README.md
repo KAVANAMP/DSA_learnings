@@ -1,12 +1,15 @@
 <div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:1a001a,100:0d0d0d&height=180&text=DSA%20Learnings%20🧠&fontSize=45&fontColor=00FF99&fontAlignY=45&desc=▸%20Data%20Structures%20%26%20Algorithms%20▸%20Notes%20%2B%20Code%20▸%20Kavana%20M%20P&descAlignY=70&descSize=14&descColor=bf00ff" width="100%"/>
+
 <br/>
-Show Image
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=800&color=00FF99&background=00000000&center=true&vCenter=true&width=650&lines=⚡+Cracking+DSA+one+problem+at+a+time;🧩+Arrays+%7C+Trees+%7C+Graphs+%7C+DP;💡+Notes+%2B+Code+%2B+Practice+every+day;🚀+by+Kavana+M+P)](https://git.io/typing-svg)
+
 <br/>
-Show Image
-Show Image
-Show Image
-Show Image
+
+![](https://img.shields.io/badge/Java-00FF99?style=for-the-badge&logo=openjdk&logoColor=black)
+
 </div>
 ---
 
@@ -214,8 +217,13 @@ Address of index 2 = 100 + 2×4 = 108
 ---
 
 <div align="center">
-⚡ Keep learning, keep growing!
-"An investment in knowledge pays the best interest."
-Show Image
+
+### ⚡ Keep learning, keep growing!
+
+*"An investment in knowledge pays the best interest."*
+
+[![](https://img.shields.io/badge/GitHub-KAVANAMP-00FF99?style=for-the-badge&logo=github&logoColor=black)](https://github.com/KAVANAMP)
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:1a001a,100:0d0d0d&height=80&text=Happy%20Coding%20⚡&fontSize=24&fontColor=00FF99&fontAlignY=55" width="100%"/>
+
 </div>
