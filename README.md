@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:1a001a,100:0d0d0d&height=180&text=DSA%20Learnings%20🧠&fontSize=45&fontColor=00FF99&fontAlignY=45&desc=▸%20Data%20Structures%20%26%20Algorithms%20▸%20Notes%20%2B%20Code%20▸%20Kavana%20M%20P&descAlignY=70&descSize=14&descColor=bf00ff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:2d0057,100:000000&height=200&section=header&text=DSA%20Learnings%20%F0%9F%A7%A0&fontSize=45&fontColor=00FF99&fontAlignY=38&desc=Data%20Structures%20%26%20Algorithms%20%7C%20Notes%20%2B%20Code%20%7C%20Kavana%20M%20P&descAlignY=58&descSize=14&descColor=bf00ff" width="100%"/>
 
 <br/>
 
