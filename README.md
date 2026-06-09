@@ -5,9 +5,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Learning+Data+Structures+%26+Algorithms;One+concept+at+a+time+💡;Notes+%2B+Code+%2B+Practice)](https://git.io/typing-svg)
 
 ![](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![](https://img.shields.io/badge/Status-In_Progress-43B89C?style=for-the-badge&logo=github&logoColor=white)
-![](https://img.shields.io/badge/Author-Kavana_M_P-6C63FF?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
