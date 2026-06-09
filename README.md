@@ -1,13 +1,7 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:2d0057,100:000000&height=200&section=header&text=DSA%20Learnings%20%F0%9F%A7%A0&fontSize=45&fontColor=00FF99&fontAlignY=38&desc=Data%20Structures%20%26%20Algorithms%20%7C%20Notes%20%2B%20Code%20%7C%20Kavana%20M%20P&descAlignY=58&descSize=14&descColor=bf00ff" width="100%"/>
-<br/>
-Show Image
-<br/>
-Show Image
-Show Image
-Show Image
-Show Image
-</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:1a001a,100:0d0d0d&height=180&text=DSA%20Learnings%20🧠&fontSize=45&fontColor=00FF99&fontAlignY=45&desc=▸%20Data%20Structures%20%26%20Algorithms%20▸%20Notes%20%2B%20Code%20▸%20Kavana%20M%20P&descAlignY=70&descSize=14&descColor=bf00ff" width="100%"/>
+
 <br/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=800&color=00FF99&background=00000000&center=true&vCenter=true&width=650&lines=⚡+Cracking+DSA+one+problem+at+a+time;🧩+Arrays+%7C+Trees+%7C+Graphs+%7C+DP;💡+Notes+%2B+Code+%2B+Practice+every+day;🚀+by+Kavana+M+P)](https://git.io/typing-svg)
