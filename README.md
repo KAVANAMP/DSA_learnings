@@ -9,6 +9,9 @@
 <br/>
 
 ![](https://img.shields.io/badge/Java-00FF99?style=for-the-badge&logo=openjdk&logoColor=black)
+![](https://img.shields.io/badge/Python-BF00FF?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/Status-In_Progress-00FF99?style=for-the-badge&logo=github&logoColor=black)
+![](https://img.shields.io/badge/Author-Kavana_M_P-BF00FF?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 ---
